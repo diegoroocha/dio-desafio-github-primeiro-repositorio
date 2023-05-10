@@ -1,0 +1,49 @@
+Git and GitHub
+
+Algumas anotações sobre o curso
+
+
+LISTA DE COMANDOS
+
+* ls		listar o conteudo dentro de uma pasta
+
+* ls -a		mostra pastas/conteudo ocultas
+
+* cd		entrar dentro de uma pasta
+
+* cd .. 		retorna para pasta anterior
+
+* mkdir		criar uma pasta dentro da pasta atual
+
+* git init	inicia um repositorio git da pasta atual
+
+* git config --global <nome da propriedade>		altera o valor da propriedade, referente as informações registrados do repositorio
+			==ps: user.email  "seila@email"  &  user.name "name usado no github"
+
+* git config --list	demonstra lista de propriedade e seus valores(só mostra valores preenchidos) ps: Apertar "q" para sair
+
+* git add * 	adiciona todos os arquivos que estão em untracked (estão na pasta, mas não fora adicionados no git ainda ou ainda adiciona atualização)
+
+* git status	passa informações sobre estado dos arquivos, se precisam ser adicionados ou comitados
+
+* mv		move um arquivo de pasta ex (mv Strogonof.md ./receitas)
+
+* git commit -m "comentário qualquer"		comita o arquivo/ versiona o arquivo trabalhado e cria um sha
+
+* echo > 	cria um arquivo novo
+
+* git remote add origin  (link pasta github)		salve o link com nome origin para atalho ex: git remote add origin https://github.com/diegoroocha/livro-receitas.git
+
+* git remote -v		mostra link do github atrelado a essa pasta/arquivo
+
+* git push origin master			impurra todo os arquivos em commit para github
+
+* git pull origin master			puxa o ultimo versionamento do arquivo para o ambiente local
+
+*git clone (link do repositorio)		baixa qualquer repositorio do github já versionado
+
+
+
+
+
+
